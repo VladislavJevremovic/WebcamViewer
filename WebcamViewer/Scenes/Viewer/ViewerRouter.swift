@@ -21,8 +21,7 @@ internal final class ViewerRouter: ViewerRoutingLogic, SelectionRouterDelegate {
       localStore: viewController.localStore,
       delegate: self
     )
-    let navigationController = UINavigationController(rootViewController: cameraSelectionViewController)
-    viewController.present(navigationController, animated: true, completion: nil)
+    viewController.present(cameraSelectionViewController, animated: true, completion: nil)
   }
 
   // MARK: - SelectionRouterDelegate

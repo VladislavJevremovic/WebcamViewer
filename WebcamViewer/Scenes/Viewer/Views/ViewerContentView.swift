@@ -25,7 +25,7 @@ internal final class ViewerContentView: UIView {
 
   // MARK: - Private Methods
   private func setupView() {
-    backgroundColor = .black
+    backgroundColor = .systemBackground
     setupImageView()
     setupTitleLabel()
     setupSubtitleLabel()
@@ -42,7 +42,7 @@ internal final class ViewerContentView: UIView {
   private func setupTitleLabel() {
     addSubview(titleLabel)
     titleLabel.font = UIFont.boldSystemFont(ofSize: 15)
-    titleLabel.textColor = .white
+    titleLabel.textColor = .label
     titleLabel.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)
     titleLabel.shadowOffset = CGSize(width: 1, height: 1)
     titleLabel.isUserInteractionEnabled = false
@@ -55,7 +55,7 @@ internal final class ViewerContentView: UIView {
   private func setupSubtitleLabel() {
     addSubview(subtitleLabel)
     subtitleLabel.font = UIFont.systemFont(ofSize: 12)
-    subtitleLabel.textColor = .white
+    subtitleLabel.textColor = .label
     subtitleLabel.shadowColor = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 0.25)
     subtitleLabel.shadowOffset = CGSize(width: 1, height: 1)
     subtitleLabel.isUserInteractionEnabled = false

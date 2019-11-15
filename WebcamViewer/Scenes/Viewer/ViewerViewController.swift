@@ -28,9 +28,7 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
     self.router = router
     setupView()
 
-    // TODO: refactor
-    let car = Camera.loadCameraArray()
-    contentView.updateWithCamera(car[localStore.selectedCameraIndex])
+    contentView.updateWithCamera(localStore.selectedCamera)
   }
 
   @available(*, unavailable)
@@ -45,14 +43,29 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
 
   private func setupContentView() {
     view.addSubview(contentView)
+    contentView.onSwipeLeft = { [weak self] in
+      self?.navigateToNextCamera()
+    }
+    contentView.onSwipeRight = { [weak self] in
+      self?.navigateToPreviousCamera()
+    }
     contentView.onSwipeUp = { [weak self] in
       self?.router?.navigateToCameraSelection()
     }
     contentView.al_edgesEqualToSuperview()
   }
 
+  func navigateToNextCamera() {
+    updateWithCamera(localStore.nextCamera)
+  }
+
+  func navigateToPreviousCamera() {
+    updateWithCamera(localStore.previousCamera)
+  }
+
   // MARK: - Public Methods
   func updateWithCamera(_ camera: Camera) {
+    localStore.selectedCameraIndex = localStore.indexOf(camera)
     contentView.updateWithCamera(camera)
   }
 

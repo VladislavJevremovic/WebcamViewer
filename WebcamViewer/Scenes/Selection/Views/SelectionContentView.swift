@@ -21,13 +21,14 @@ internal final class SelectionContentView: UIView {
 
   // MARK: - Private Methods
   private func setupView() {
-    backgroundColor = .white
+    backgroundColor = .systemBackground
     setupTableView()
   }
 
   func setupTableView() {
     addSubview(tableView)
     tableView.register(SelectionTableViewCell.self)
+    tableView.contentInset.top = 10
     tableView.al_edgesEqualToSuperview()
   }
 }
