@@ -7,14 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86C56B66237D3F32006D021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56B65237D3F32006D021E /* AppDelegate.swift */; };
-		86C56B68237D3F32006D021E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56B67237D3F32006D021E /* SceneDelegate.swift */; };
-		86C56B6A237D3F32006D021E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56B69237D3F32006D021E /* ViewController.swift */; };
-		86C56B6D237D3F32006D021E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C56B6B237D3F32006D021E /* Main.storyboard */; };
-		86C56B6F237D3F33006D021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C56B6E237D3F33006D021E /* Assets.xcassets */; };
-		86C56B72237D3F33006D021E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C56B70237D3F33006D021E /* LaunchScreen.storyboard */; };
+		8647A2EE237DFB1E00CAB0C3 /* Data.json in Resources */ = {isa = PBXBuildFile; fileRef = 8647A2ED237DFB1E00CAB0C3 /* Data.json */; };
+		8647A32E237E8A6E00CAB0C3 /* JSONDecoder+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A32C237E8A6E00CAB0C3 /* JSONDecoder+Extensions.swift */; };
+		8647A32F237E8A6E00CAB0C3 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A32D237E8A6E00CAB0C3 /* Collection+Extensions.swift */; };
+		8647A332237E91C200CAB0C3 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A330237E91C200CAB0C3 /* UITableView+Extensions.swift */; };
+		8647A333237E91C200CAB0C3 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A331237E91C200CAB0C3 /* UIView+Extensions.swift */; };
+		8647A335237E953700CAB0C3 /* WindowSetupStartupProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A334237E953700CAB0C3 /* WindowSetupStartupProcess.swift */; };
+		8647A339237EA9B900CAB0C3 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A338237EA9B900CAB0C3 /* Camera.swift */; };
+		8647A33B237EA9FF00CAB0C3 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A33A237EA9FF00CAB0C3 /* Date+Extensions.swift */; };
+		8647A33D237EAA1D00CAB0C3 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A33C237EAA1D00CAB0C3 /* UIImageView+Extensions.swift */; };
+		8647A347237EB17B00CAB0C3 /* SelectionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A33F237EB17B00CAB0C3 /* SelectionInteractor.swift */; };
+		8647A348237EB17B00CAB0C3 /* SelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A340237EB17B00CAB0C3 /* SelectionViewController.swift */; };
+		8647A34A237EB17B00CAB0C3 /* SelectionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A343237EB17B00CAB0C3 /* SelectionRouter.swift */; };
+		8647A34B237EB17B00CAB0C3 /* SelectionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A345237EB17B00CAB0C3 /* SelectionContentView.swift */; };
+		8647A34C237EB17B00CAB0C3 /* SelectionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A346237EB17B00CAB0C3 /* SelectionPresenter.swift */; };
+		8647A353237EBDD800CAB0C3 /* SelectionSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A350237EBDD800CAB0C3 /* SelectionSection.swift */; };
+		8647A354237EBDD800CAB0C3 /* SelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A351237EBDD800CAB0C3 /* SelectionRow.swift */; };
+		8647A355237EBDD800CAB0C3 /* SelectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A352237EBDD800CAB0C3 /* SelectionDataSource.swift */; };
+		8647A357237EBE9300CAB0C3 /* SelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A356237EBE9300CAB0C3 /* SelectionTableViewCell.swift */; };
+		8647A35A237EC29400CAB0C3 /* SubtitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8647A359237EC29400CAB0C3 /* SubtitleTableViewCell.swift */; };
 		86C56B7D237D3F33006D021E /* WebcamViewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56B7C237D3F33006D021E /* WebcamViewerTests.swift */; };
 		86C56B88237D3F33006D021E /* WebcamViewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56B87237D3F33006D021E /* WebcamViewerUITests.swift */; };
+		86C56BE9237D5DD7006D021E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C56B9D237D5DD7006D021E /* LaunchScreen.storyboard */; };
+		86C56BEB237D5DD7006D021E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C56BA1237D5DD7006D021E /* Assets.xcassets */; };
+		86C56BF1237D5DD7006D021E /* DataSourceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BAE237D5DD7006D021E /* DataSourceProtocol.swift */; };
+		86C56C00237D5DD7006D021E /* StartupProcessService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BC7237D5DD7006D021E /* StartupProcessService.swift */; };
+		86C56C01237D5DD7006D021E /* StartupProcess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BC8237D5DD7006D021E /* StartupProcess.swift */; };
+		86C56C03237D5DD7006D021E /* UserDefaultsLocalStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BCB237D5DD7006D021E /* UserDefaultsLocalStore.swift */; };
+		86C56C05237D5DD7006D021E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BCE237D5DD7006D021E /* AppDelegate.swift */; };
+		86C56C12237D5DD7006D021E /* ViewerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BDF237D5DD7006D021E /* ViewerInteractor.swift */; };
+		86C56C13237D5DD7006D021E /* ViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE0237D5DD7006D021E /* ViewerViewController.swift */; };
+		86C56C14237D5DD7006D021E /* ViewerWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE2237D5DD7006D021E /* ViewerWorker.swift */; };
+		86C56C16237D5DD7006D021E /* ViewerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE5237D5DD7006D021E /* ViewerContentView.swift */; };
+		86C56C17237D5DD7006D021E /* ViewerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE6237D5DD7006D021E /* ViewerPresenter.swift */; };
+		86C56C18237D5DD7006D021E /* ViewerRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE7237D5DD7006D021E /* ViewerRouter.swift */; };
+		86C56C19237D5DD7006D021E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C56BE8237D5DD7006D021E /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +62,47 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8647A2ED237DFB1E00CAB0C3 /* Data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Data.json; sourceTree = "<group>"; };
+		8647A32C237E8A6E00CAB0C3 /* JSONDecoder+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "JSONDecoder+Extensions.swift"; sourceTree = "<group>"; };
+		8647A32D237E8A6E00CAB0C3 /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		8647A330237E91C200CAB0C3 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		8647A331237E91C200CAB0C3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		8647A334237E953700CAB0C3 /* WindowSetupStartupProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowSetupStartupProcess.swift; sourceTree = "<group>"; };
+		8647A338237EA9B900CAB0C3 /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		8647A33A237EA9FF00CAB0C3 /* Date+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		8647A33C237EAA1D00CAB0C3 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		8647A33F237EB17B00CAB0C3 /* SelectionInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionInteractor.swift; sourceTree = "<group>"; };
+		8647A340237EB17B00CAB0C3 /* SelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionViewController.swift; sourceTree = "<group>"; };
+		8647A343237EB17B00CAB0C3 /* SelectionRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionRouter.swift; sourceTree = "<group>"; };
+		8647A345237EB17B00CAB0C3 /* SelectionContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionContentView.swift; sourceTree = "<group>"; };
+		8647A346237EB17B00CAB0C3 /* SelectionPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionPresenter.swift; sourceTree = "<group>"; };
+		8647A350237EBDD800CAB0C3 /* SelectionSection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSection.swift; sourceTree = "<group>"; };
+		8647A351237EBDD800CAB0C3 /* SelectionRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionRow.swift; sourceTree = "<group>"; };
+		8647A352237EBDD800CAB0C3 /* SelectionDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionDataSource.swift; sourceTree = "<group>"; };
+		8647A356237EBE9300CAB0C3 /* SelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionTableViewCell.swift; sourceTree = "<group>"; };
+		8647A359237EC29400CAB0C3 /* SubtitleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubtitleTableViewCell.swift; sourceTree = "<group>"; };
 		86C56B62237D3F32006D021E /* WebcamViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebcamViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86C56B65237D3F32006D021E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86C56B67237D3F32006D021E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		86C56B69237D3F32006D021E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86C56B6C237D3F32006D021E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86C56B6E237D3F33006D021E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86C56B71237D3F33006D021E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86C56B73237D3F33006D021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86C56B78237D3F33006D021E /* WebcamViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebcamViewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C56B7C237D3F33006D021E /* WebcamViewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamViewerTests.swift; sourceTree = "<group>"; };
 		86C56B7E237D3F33006D021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86C56B83237D3F33006D021E /* WebcamViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebcamViewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C56B87237D3F33006D021E /* WebcamViewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebcamViewerUITests.swift; sourceTree = "<group>"; };
 		86C56B89237D3F33006D021E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C56B9E237D5DD7006D021E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86C56BA1237D5DD7006D021E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86C56BA5237D5DD7006D021E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C56BAE237D5DD7006D021E /* DataSourceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceProtocol.swift; sourceTree = "<group>"; };
+		86C56BC7237D5DD7006D021E /* StartupProcessService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupProcessService.swift; sourceTree = "<group>"; };
+		86C56BC8237D5DD7006D021E /* StartupProcess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartupProcess.swift; sourceTree = "<group>"; };
+		86C56BCB237D5DD7006D021E /* UserDefaultsLocalStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsLocalStore.swift; sourceTree = "<group>"; };
+		86C56BCE237D5DD7006D021E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86C56BDF237D5DD7006D021E /* ViewerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerInteractor.swift; sourceTree = "<group>"; };
+		86C56BE0237D5DD7006D021E /* ViewerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerViewController.swift; sourceTree = "<group>"; };
+		86C56BE2237D5DD7006D021E /* ViewerWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerWorker.swift; sourceTree = "<group>"; };
+		86C56BE5237D5DD7006D021E /* ViewerContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerContentView.swift; sourceTree = "<group>"; };
+		86C56BE6237D5DD7006D021E /* ViewerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerPresenter.swift; sourceTree = "<group>"; };
+		86C56BE7237D5DD7006D021E /* ViewerRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewerRouter.swift; sourceTree = "<group>"; };
+		86C56BE8237D5DD7006D021E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +130,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8647A337237EA9B900CAB0C3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8647A338237EA9B900CAB0C3 /* Camera.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8647A33E237EB17B00CAB0C3 /* Selection */ = {
+			isa = PBXGroup;
+			children = (
+				8647A34F237EBDD800CAB0C3 /* DataSource */,
+				8647A33F237EB17B00CAB0C3 /* SelectionInteractor.swift */,
+				8647A346237EB17B00CAB0C3 /* SelectionPresenter.swift */,
+				8647A343237EB17B00CAB0C3 /* SelectionRouter.swift */,
+				8647A340237EB17B00CAB0C3 /* SelectionViewController.swift */,
+				8647A344237EB17B00CAB0C3 /* Views */,
+			);
+			path = Selection;
+			sourceTree = "<group>";
+		};
+		8647A344237EB17B00CAB0C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8647A345237EB17B00CAB0C3 /* SelectionContentView.swift */,
+				8647A356237EBE9300CAB0C3 /* SelectionTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8647A34F237EBDD800CAB0C3 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				8647A352237EBDD800CAB0C3 /* SelectionDataSource.swift */,
+				8647A351237EBDD800CAB0C3 /* SelectionRow.swift */,
+				8647A350237EBDD800CAB0C3 /* SelectionSection.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		8647A358237EC29400CAB0C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8647A359237EC29400CAB0C3 /* SubtitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		86C56B59237D3F32006D021E = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +201,9 @@
 		86C56B64237D3F32006D021E /* WebcamViewer */ = {
 			isa = PBXGroup;
 			children = (
-				86C56B65237D3F32006D021E /* AppDelegate.swift */,
-				86C56B67237D3F32006D021E /* SceneDelegate.swift */,
-				86C56B69237D3F32006D021E /* ViewController.swift */,
-				86C56B6B237D3F32006D021E /* Main.storyboard */,
-				86C56B6E237D3F33006D021E /* Assets.xcassets */,
-				86C56B70237D3F33006D021E /* LaunchScreen.storyboard */,
-				86C56B73237D3F33006D021E /* Info.plist */,
+				86C56BA9237D5DD7006D021E /* Common */,
+				86C56B9B237D5DD7006D021E /* Resources */,
+				86C56BCC237D5DD7006D021E /* Scenes */,
 			);
 			path = WebcamViewer;
 			sourceTree = "<group>";
@@ -128,6 +226,157 @@
 			path = WebcamViewerUITests;
 			sourceTree = "<group>";
 		};
+		86C56B9B237D5DD7006D021E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BA1237D5DD7006D021E /* Assets.xcassets */,
+				8647A2ED237DFB1E00CAB0C3 /* Data.json */,
+				86C56BA5237D5DD7006D021E /* Info.plist */,
+				86C56B9C237D5DD7006D021E /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		86C56B9C237D5DD7006D021E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				86C56B9D237D5DD7006D021E /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		86C56BA9237D5DD7006D021E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BBB237D5DD7006D021E /* Extensions */,
+				86C56BC9237D5DD7006D021E /* LocalStore */,
+				86C56BB1237D5DD7006D021E /* Network */,
+				86C56BC3237D5DD7006D021E /* System */,
+				86C56BAA237D5DD7006D021E /* UI */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		86C56BAA237D5DD7006D021E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BAD237D5DD7006D021E /* Protocols */,
+				8647A358237EC29400CAB0C3 /* Views */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		86C56BAD237D5DD7006D021E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BAE237D5DD7006D021E /* DataSourceProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		86C56BB1237D5DD7006D021E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		86C56BBB237D5DD7006D021E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BBF237D5DD7006D021E /* Foundation */,
+				86C56BBC237D5DD7006D021E /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		86C56BBC237D5DD7006D021E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8647A33C237EAA1D00CAB0C3 /* UIImageView+Extensions.swift */,
+				8647A330237E91C200CAB0C3 /* UITableView+Extensions.swift */,
+				8647A331237E91C200CAB0C3 /* UIView+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		86C56BBF237D5DD7006D021E /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				8647A32D237E8A6E00CAB0C3 /* Collection+Extensions.swift */,
+				8647A33A237EA9FF00CAB0C3 /* Date+Extensions.swift */,
+				8647A32C237E8A6E00CAB0C3 /* JSONDecoder+Extensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		86C56BC3237D5DD7006D021E /* System */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BC4237D5DD7006D021E /* Processes */,
+				86C56BC8237D5DD7006D021E /* StartupProcess.swift */,
+				86C56BC7237D5DD7006D021E /* StartupProcessService.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		86C56BC4237D5DD7006D021E /* Processes */ = {
+			isa = PBXGroup;
+			children = (
+				8647A334237E953700CAB0C3 /* WindowSetupStartupProcess.swift */,
+			);
+			path = Processes;
+			sourceTree = "<group>";
+		};
+		86C56BC9237D5DD7006D021E /* LocalStore */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BCB237D5DD7006D021E /* UserDefaultsLocalStore.swift */,
+			);
+			path = LocalStore;
+			sourceTree = "<group>";
+		};
+		86C56BCC237D5DD7006D021E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BCE237D5DD7006D021E /* AppDelegate.swift */,
+				86C56BE8237D5DD7006D021E /* SceneDelegate.swift */,
+				8647A33E237EB17B00CAB0C3 /* Selection */,
+				86C56BDD237D5DD7006D021E /* Viewer */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		86C56BDD237D5DD7006D021E /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				8647A337237EA9B900CAB0C3 /* Model */,
+				86C56BDF237D5DD7006D021E /* ViewerInteractor.swift */,
+				86C56BE6237D5DD7006D021E /* ViewerPresenter.swift */,
+				86C56BE7237D5DD7006D021E /* ViewerRouter.swift */,
+				86C56BE0237D5DD7006D021E /* ViewerViewController.swift */,
+				86C56BE3237D5DD7006D021E /* Views */,
+				86C56BE1237D5DD7006D021E /* Worker */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+		86C56BE1237D5DD7006D021E /* Worker */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BE2237D5DD7006D021E /* ViewerWorker.swift */,
+			);
+			path = Worker;
+			sourceTree = "<group>";
+		};
+		86C56BE3237D5DD7006D021E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				86C56BE5237D5DD7006D021E /* ViewerContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +387,7 @@
 				86C56B5E237D3F32006D021E /* Sources */,
 				86C56B5F237D3F32006D021E /* Frameworks */,
 				86C56B60237D3F32006D021E /* Resources */,
+				8647A336237E985E00CAB0C3 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -232,9 +482,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C56B72237D3F33006D021E /* LaunchScreen.storyboard in Resources */,
-				86C56B6F237D3F33006D021E /* Assets.xcassets in Resources */,
-				86C56B6D237D3F32006D021E /* Main.storyboard in Resources */,
+				8647A2EE237DFB1E00CAB0C3 /* Data.json in Resources */,
+				86C56BEB237D5DD7006D021E /* Assets.xcassets in Resources */,
+				86C56BE9237D5DD7006D021E /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,14 +504,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8647A336237E985E00CAB0C3 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86C56B5E237D3F32006D021E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C56B6A237D3F32006D021E /* ViewController.swift in Sources */,
-				86C56B66237D3F32006D021E /* AppDelegate.swift in Sources */,
-				86C56B68237D3F32006D021E /* SceneDelegate.swift in Sources */,
+				86C56C13237D5DD7006D021E /* ViewerViewController.swift in Sources */,
+				86C56C05237D5DD7006D021E /* AppDelegate.swift in Sources */,
+				86C56C16237D5DD7006D021E /* ViewerContentView.swift in Sources */,
+				8647A333237E91C200CAB0C3 /* UIView+Extensions.swift in Sources */,
+				8647A32F237E8A6E00CAB0C3 /* Collection+Extensions.swift in Sources */,
+				8647A348237EB17B00CAB0C3 /* SelectionViewController.swift in Sources */,
+				86C56BF1237D5DD7006D021E /* DataSourceProtocol.swift in Sources */,
+				8647A34A237EB17B00CAB0C3 /* SelectionRouter.swift in Sources */,
+				8647A347237EB17B00CAB0C3 /* SelectionInteractor.swift in Sources */,
+				8647A34C237EB17B00CAB0C3 /* SelectionPresenter.swift in Sources */,
+				8647A354237EBDD800CAB0C3 /* SelectionRow.swift in Sources */,
+				86C56C18237D5DD7006D021E /* ViewerRouter.swift in Sources */,
+				8647A35A237EC29400CAB0C3 /* SubtitleTableViewCell.swift in Sources */,
+				8647A32E237E8A6E00CAB0C3 /* JSONDecoder+Extensions.swift in Sources */,
+				86C56C01237D5DD7006D021E /* StartupProcess.swift in Sources */,
+				8647A33B237EA9FF00CAB0C3 /* Date+Extensions.swift in Sources */,
+				8647A33D237EAA1D00CAB0C3 /* UIImageView+Extensions.swift in Sources */,
+				8647A332237E91C200CAB0C3 /* UITableView+Extensions.swift in Sources */,
+				86C56C14237D5DD7006D021E /* ViewerWorker.swift in Sources */,
+				8647A357237EBE9300CAB0C3 /* SelectionTableViewCell.swift in Sources */,
+				8647A335237E953700CAB0C3 /* WindowSetupStartupProcess.swift in Sources */,
+				8647A353237EBDD800CAB0C3 /* SelectionSection.swift in Sources */,
+				86C56C17237D5DD7006D021E /* ViewerPresenter.swift in Sources */,
+				86C56C19237D5DD7006D021E /* SceneDelegate.swift in Sources */,
+				86C56C12237D5DD7006D021E /* ViewerInteractor.swift in Sources */,
+				8647A355237EBDD800CAB0C3 /* SelectionDataSource.swift in Sources */,
+				8647A34B237EB17B00CAB0C3 /* SelectionContentView.swift in Sources */,
+				8647A339237EA9B900CAB0C3 /* Camera.swift in Sources */,
+				86C56C03237D5DD7006D021E /* UserDefaultsLocalStore.swift in Sources */,
+				86C56C00237D5DD7006D021E /* StartupProcessService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,18 +595,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		86C56B6B237D3F32006D021E /* Main.storyboard */ = {
+		86C56B9D237D5DD7006D021E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				86C56B6C237D3F32006D021E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		86C56B70237D3F33006D021E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86C56B71237D3F33006D021E /* Base */,
+				86C56B9E237D5DD7006D021E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -435,11 +725,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WebcamViewer/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WebcamViewer/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladislavjevremovic.WebcamViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -452,11 +744,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = WebcamViewer/Info.plist;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = WebcamViewer/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vladislavjevremovic.WebcamViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

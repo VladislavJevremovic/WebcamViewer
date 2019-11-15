@@ -1,0 +1,128 @@
+[
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Brankov most - Terazijski tunel",
+    "url": "http://109.206.96.247:8080/cam_1.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Most Gazela",
+    "url": "http://109.206.96.247:8080/cam_2.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Autokomanda",
+    "url": "http://109.206.96.249:8080/cam_3.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Bulevar Milutina Milankovića - Most na Adi",
+    "url": "http://109.206.96.249:8080/cam_4.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Bogoslovija",
+    "url": "http://109.206.96.249:8080/cam_5.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Vukov spomenik",
+    "url": "http://109.206.96.249:8080/cam_6.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Pančevački most",
+    "url": "http://109.206.96.247:8080/cam_7.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Slavija",
+    "url": "http://109.206.96.230:8080/cam_8.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Bulevar Mihaila Pupina",
+    "url": "http://109.206.96.230:8080/cam_9.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Autoput Novi Beograd",
+    "url": "http://109.206.96.230:8080/cam_10.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Beogradski Sajam - Mostarska petlja",
+    "url": "http://109.206.96.96:8080/cam_11.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Jurija Gagarina",
+    "url": "http://109.206.96.96:8080/cam_12.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Takovska",
+    "url": "http://109.206.96.96:8080/cam_13.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Bulevar Despota Stefana",
+    "url": "http://109.206.96.96:8080/cam_17.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Trg Republike",
+    "url": "http://109.206.96.96:8080/cam_18.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Železnička stanica",
+    "url": "http://109.206.96.98:8080/cam_19.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Trg Nikole Pašića",
+    "url": "http://109.206.96.98:8080/cam_20.jpg"
+  },
+  {
+    "country": "RS",
+    "interval": 0,
+    "location": "Belgrade",
+    "name": "Kružni tok Novi Beograd",
+    "url": "http://109.206.96.98:8080/cam_21.jpg"
+  }
+]
