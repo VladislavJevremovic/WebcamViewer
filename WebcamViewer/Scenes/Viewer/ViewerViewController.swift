@@ -4,7 +4,9 @@
 
 import UIKit
 
-internal protocol ViewerDisplayLogic: AnyObject {}
+internal protocol ViewerDisplayLogic: AnyObject {
+  func displayCamera(_ camera: Camera)
+}
 
 internal final class ViewerViewController: UIViewController, ViewerDisplayLogic {
   var interactor: ViewerBusinessLogic?
@@ -17,7 +19,7 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
     self.localStore = localStore
     super.init(nibName: nil, bundle: nil)
 
-    let interactor = ViewerInteractor()
+    let interactor = ViewerInteractor(localStore: localStore)
     let presenter = ViewerPresenter()
     let router = ViewerRouter()
     interactor.presenter = presenter
@@ -28,7 +30,12 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
     self.router = router
     setupView()
 
-    contentView.updateWithCamera(localStore.selectedCamera)
+    Timer.scheduledTimer(
+      withTimeInterval: 0.01,
+      repeats: true
+    ) { [weak self] _ in
+      self?.interactor?.navigateToSelectedCamera()
+    }
   }
 
   @available(*, unavailable)
@@ -44,10 +51,10 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
   private func setupContentView() {
     view.addSubview(contentView)
     contentView.onSwipeLeft = { [weak self] in
-      self?.navigateToNextCamera()
+      self?.interactor?.navigateToNextCamera()
     }
     contentView.onSwipeRight = { [weak self] in
-      self?.navigateToPreviousCamera()
+      self?.interactor?.navigateToPreviousCamera()
     }
     contentView.onSwipeUp = { [weak self] in
       self?.router?.navigateToCameraSelection()
@@ -55,19 +62,8 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
     contentView.al_edgesEqualToSuperview()
   }
 
-  func navigateToNextCamera() {
-    updateWithCamera(localStore.nextCamera)
-  }
-
-  func navigateToPreviousCamera() {
-    updateWithCamera(localStore.previousCamera)
-  }
-
-  // MARK: - Public Methods
-  func updateWithCamera(_ camera: Camera) {
-    localStore.selectedCameraIndex = localStore.indexOf(camera)
+  // MARK: - ViewerDisplayLogic
+  func displayCamera(_ camera: Camera) {
     contentView.updateWithCamera(camera)
   }
-
-  // MARK: - ViewerDisplayLogic
 }

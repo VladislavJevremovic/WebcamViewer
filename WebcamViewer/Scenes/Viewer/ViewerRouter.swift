@@ -28,7 +28,7 @@ internal final class ViewerRouter: ViewerRoutingLogic, SelectionRouterDelegate {
   func dismiss(selectionViewController: SelectionViewController, selectedCamera: Camera?) {
     viewController?.dismiss(animated: true)
     if let camera = selectedCamera {
-      viewController?.updateWithCamera(camera)
+      viewController?.interactor?.navigateToCamera(camera)
     }
   }
 }

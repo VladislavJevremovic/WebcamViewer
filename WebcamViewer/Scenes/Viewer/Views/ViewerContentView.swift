@@ -5,9 +5,11 @@
 import UIKit
 
 internal final class ViewerContentView: UIView {
-  let imageView = UIImageView.al_makeView()
-  let titleLabel = UILabel.al_makeView()
-  let subtitleLabel = UILabel.al_makeView()
+  private let imageView = UIImageView.al_makeView()
+  private let titleLabel = UILabel.al_makeView()
+  private let subtitleLabel = UILabel.al_makeView()
+
+  private var isDownloadingImage = false
 
   var onSwipeLeft: (() -> Void)?
   var onSwipeRight: (() -> Void)?
@@ -107,6 +109,12 @@ internal final class ViewerContentView: UIView {
   func updateWithCamera(_ camera: Camera) {
     titleLabel.text = camera.name
     subtitleLabel.text = "\(camera.location), \(camera.country)"
-    imageView.download(from: camera.url)
+
+    if !isDownloadingImage {
+      isDownloadingImage = true
+      imageView.download(from: camera.url) { _ in
+        self.isDownloadingImage = false
+      }
+    }
   }
 }
