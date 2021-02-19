@@ -11,7 +11,7 @@ internal final class SelectionViewController: UIViewController, SelectionDisplay
   var router: SelectionRoutingLogic?
   private let contentView = SelectionContentView.al_makeView()
   private var dataSource = SelectionDataSource(cameraArray: Camera.loadCameraArray())
-  override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
+  override var preferredStatusBarStyle: UIStatusBarStyle { .lightContent }
   let localStore: LocalStore
 
   init(localStore: LocalStore, delegate: SelectionRouterDelegate?) {
@@ -70,7 +70,7 @@ internal final class SelectionViewController: UIViewController, SelectionDisplay
 
   // MARK: - UITableViewDelegate
   func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-    return UITableView.automaticDimension
+    UITableView.automaticDimension
   }
 
   func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {

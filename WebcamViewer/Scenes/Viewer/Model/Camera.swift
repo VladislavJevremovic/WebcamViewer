@@ -15,10 +15,9 @@ internal struct Camera: Codable, Equatable {
 
   // MARK: - Equatable
   static func == (lhs: Self, rhs: Self) -> Bool {
-    return lhs.location == rhs.location && lhs.country == rhs.country && lhs.name == rhs.name && lhs.url == rhs.url
+    lhs.location == rhs.location && lhs.country == rhs.country && lhs.name == rhs.name && lhs.url == rhs.url
   }
 
-  // TODO: refactor
   static func loadCameraArray() -> CameraArray {
     var result = CameraArray()
     guard let path = Bundle.main.path(forResource: "Data", ofType: "json") else { return result }

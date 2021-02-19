@@ -15,11 +15,11 @@ internal final class SelectionDataSource: NSObject, DataSourceProtocol, UITableV
 
   // MARK: - UITableViewDataSource
   func numberOfSections(in tableView: UITableView) -> Int {
-    return numberOfSections()
+    numberOfSections()
   }
 
   func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-    return numberOfRows(in: section)
+    numberOfRows(in: section)
   }
 
   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

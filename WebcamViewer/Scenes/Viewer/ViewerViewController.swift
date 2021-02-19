@@ -12,7 +12,7 @@ internal final class ViewerViewController: UIViewController, ViewerDisplayLogic 
   var interactor: ViewerBusinessLogic?
   var router: ViewerRoutingLogic?
   private let contentView = ViewerContentView.al_makeView()
-  override var preferredStatusBarStyle: UIStatusBarStyle { return .lightContent }
+  override var preferredStatusBarStyle: UIStatusBarStyle { .lightContent }
   let localStore: LocalStore
 
   init(localStore: LocalStore, delegate: ViewerRouterDelegate?) {

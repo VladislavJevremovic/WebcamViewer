@@ -40,7 +40,7 @@ internal final class UserDefaultsLocalStore: LocalStore {
   // MARK: - SettingsLocalStore
   var selectedCameraIndex: Int {
     get {
-      return userDefaults.integer(forKey: Keys.selectedCameraIndex.key)
+      userDefaults.integer(forKey: Keys.selectedCameraIndex.key)
     }
     set {
       userDefaults.set(newValue, forKey: Keys.selectedCameraIndex.key)
@@ -48,24 +48,24 @@ internal final class UserDefaultsLocalStore: LocalStore {
   }
 
   var selectedCamera: Camera {
-    return cameraArray[selectedCameraIndex]
+    cameraArray[selectedCameraIndex]
   }
 
   // MARK: - CameraStore
   var cameraArray: CameraArray {
-    return Camera.loadCameraArray()
+    Camera.loadCameraArray()
   }
 
   var cameraCount: Int {
-    return cameraArray.count
+    cameraArray.count
   }
 
   var previousCamera: Camera {
-    return cameraAt((selectedCameraIndex - 1 + cameraCount) % cameraCount)
+    cameraAt((selectedCameraIndex - 1 + cameraCount) % cameraCount)
   }
 
   var nextCamera: Camera {
-    return cameraAt((selectedCameraIndex + 1) % cameraCount)
+    cameraAt((selectedCameraIndex + 1) % cameraCount)
   }
 
   // MARK: - Lifecycle
@@ -75,11 +75,11 @@ internal final class UserDefaultsLocalStore: LocalStore {
 
   // MARK: - CameraStore
   func indexOf(_ camera: Camera) -> Int {
-    return cameraArray.firstIndex { $0 == camera } ?? 0
+    cameraArray.firstIndex { $0 == camera } ?? 0
   }
 
   func cameraAt(_ index: Int) -> Camera {
-    return cameraArray[index]
+    cameraArray[index]
   }
 
   // MARK: - LocalStore

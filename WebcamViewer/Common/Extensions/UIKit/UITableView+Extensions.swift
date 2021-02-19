@@ -10,7 +10,7 @@ internal protocol Reusable: AnyObject {
 
 extension Reusable {
   static var reuseIdentifier: String {
-    return String(describing: self)
+    String(describing: self)
   }
 }
 

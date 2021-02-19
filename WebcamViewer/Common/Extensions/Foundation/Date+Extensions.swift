@@ -6,6 +6,6 @@ import UIKit
 
 extension Date {
   var millisecondsSince1970: Int64 {
-    return Int64((timeIntervalSince1970 * 1_000.0).rounded())
+    Int64((timeIntervalSince1970 * 1_000.0).rounded())
   }
 }

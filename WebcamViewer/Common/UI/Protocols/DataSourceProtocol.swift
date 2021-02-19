@@ -18,7 +18,7 @@ public protocol DataSourceProtocol {
 
 extension DataSourceProtocol {
   func numberOfSections() -> Int {
-    return sections.count
+    sections.count
   }
 
   func numberOfRows(in section: Int) -> Int {
@@ -27,12 +27,12 @@ extension DataSourceProtocol {
   }
 
   func section(at index: Int) -> Section? {
-    return sections[safe: index]
+    sections[safe: index]
   }
 }
 
 extension SectionProtocol {
   func row(at index: Int) -> Row? {
-    return rows[safe: index]
+    rows[safe: index]
   }
 }
